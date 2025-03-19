@@ -123,27 +123,14 @@ h1{
         max-width: 100%;
         height: auto;
     }
-.bonus {
-        font-size: 0.9em; /* Reduce el tamaño de fuente general dentro del div */
-    }
+    .bonus {
+        font-size: 14px;
 
-    .bonus h2.subtitulos {
-        font-size: 1.2em; /* Ajusta el tamaño del subtítulo */
     }
-
-    .cast-table {
-        width: 100%; /* Asegúrate de que la tabla ocupe todo el ancho disponible */
-        font-size: 0.8em; /* Reduce el tamaño de fuente dentro de la tabla */
+    .img{
+    width: 70px;
     }
-
-    .cast-table th,
-    .cast-table td {
-        padding: 5px; /* Reduce el padding para ahorrar espacio */
+    td{
+    margin-right: 0%;
     }
-
-    .cast-table img {
-        width: 60px; /* Ajusta el tamaño de las imágenes dentro de la tabla */
-        height: auto; /* Mantén la proporción de las imágenes */
-    }
-}
 
