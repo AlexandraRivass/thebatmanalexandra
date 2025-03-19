@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.batman{
+    background-image: url("imagenes/header_background.jpeg");
+    color: aliceblue;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-left: 49%;
+    margin-right: 17%;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.borde{
+    margin-left: 31%;
+    margin-right: 30%;
+}
+
+.subtitulos{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.rojo{
+    color: red;
+}
+ p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+ }
+
+ .segundafuente{
+    font-family: "BioRhyme Expanded", serif;
+    font-weight: 900;
+    font-style: normal;
+
+ }
+ .cast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.cast-table thead tr {
+    background-color: #8e144d;
+    color: #ffffff;
+    text-align: left;
+}
+
+.cast-table th,
+.cast-table td {
+    padding: 12px 15px;
+}
+
+.cast-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.cast-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+
+.cast-table img {
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color:#fff;
+}
+@media screen and (max-width: 768px) {
+    .batman h1 {
+        font-size: 24px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .borde {
+        padding: 10px;
+    }
+
+    .subtitulos {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+.bonus {
+        font-size: 0.9em; /* Reduce el tamaño de fuente general dentro del div */
+    }
+
+    .bonus h2.subtitulos {
+        font-size: 1.2em; /* Ajusta el tamaño del subtítulo */
+    }
+
+    .cast-table {
+        width: 100%; /* Asegúrate de que la tabla ocupe todo el ancho disponible */
+        font-size: 0.8em; /* Reduce el tamaño de fuente dentro de la tabla */
+    }
+
+    .cast-table th,
+    .cast-table td {
+        padding: 5px; /* Reduce el padding para ahorrar espacio */
+    }
+
+    .cast-table img {
+        width: 60px; /* Ajusta el tamaño de las imágenes dentro de la tabla */
+        height: auto; /* Mantén la proporción de las imágenes */
+    }
+}
+
